@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CWrapper">
+      <UniqueIdentifier>{db200735-c814-4729-b841-053074555c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{3c32573e-7254-49d2-8f2c-b64129521884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DLLMain\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PythonExtension">
+      <UniqueIdentifier>{a7694674-879b-41a4-91c4-f84b97a29095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PythonModules">
+      <UniqueIdentifier>{adad7a70-210b-4312-ae68-e2e1f6a948da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transcoder">
+      <UniqueIdentifier>{86a40a99-e905-43cb-8549-867208728728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PythonHeaders">
+      <UniqueIdentifier>{84f90035-1137-48a4-b2f9-a2ba70372087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAJIT">
+      <UniqueIdentifier>{ca19a31d-5e9f-4e53-be27-5954ead32f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{f30a1289-950f-485f-b47e-164d5eaaecdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>DLLMain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>DLLMain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonCAPI.h">
+      <Filter>CWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\CUDAKernelWriter.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\CUDAKernel.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportPython.h">
+      <Filter>PythonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\HybType.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\Hybridizer.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\HybridPythonWriter.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\InferrenceKind.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoder\HybridPythonResult.h">
+      <Filter>Transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAJIT.h">
+      <Filter>CUDAJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>DLLMain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonCAPI.cpp">
+      <Filter>CWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAPython.cpp">
+      <Filter>PythonExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoder\CUDAKernelWriter.cpp">
+      <Filter>Transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoder\CUDAKernel.cpp">
+      <Filter>Transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoder\HybType.cpp">
+      <Filter>Transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoder\HybridPythonWriter.cpp">
+      <Filter>Transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoder\Hybridizer.cpp">
+      <Filter>Transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAJIT.cpp">
+      <Filter>CUDAJIT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hello_cudapython.py">
+      <Filter>PythonModules</Filter>
+    </None>
+    <None Include="setup.py" />
+    <None Include="hybpython.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="debugging-properties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

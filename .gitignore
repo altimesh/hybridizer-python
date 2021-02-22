@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PythonCAPI/build
+/PythonCAPI/Debug
+/PythonCAPI/x64/Debug-2.7
+/PythonCAPI/x64/Debug-3.6
+/x64
+/PythonCAPI/x64/Release
+/PythonCAPI/notebooks/samples/.ipynb_checkpoints
+*.idb
+*.pdb
+/test/x64/Debug
+/test/kernel.cu
+/test
+/PythonCAPI/notebooks/api/.ipynb_checkpoints
+/PythonCAPI/notebooks/tests/.ipynb_checkpoints
